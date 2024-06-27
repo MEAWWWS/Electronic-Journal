@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb97cf9647c24897953e4d4d76a93beb" Name="Diagram1">
+        <EntityTypeShape EntityType="ElectJournalModel.Assessment" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Class" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Discipline" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Homework" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Pass" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Rating" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Role" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Schedule" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Student" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Teacher" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.Type" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectJournalModel.User" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="ElectJournalModel.FK_Assessment_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Assessment_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Assessment_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Homework_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Schedule_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Student_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Pass_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Rating_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Teacher_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Homework_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Pass_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Pass_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Schedule_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Student_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Teacher_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectJournalModel.FK_Rating_Student" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
